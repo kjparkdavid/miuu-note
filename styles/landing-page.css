@@ -1,0 +1,51 @@
+#background {
+  width: 100%; 
+  height: 100%; 
+  position: absolute; 
+  left: 0px; 
+  top: 0px; 
+  z-index: -99;
+}
+
+.stretch {
+  width:100%;
+  height:100%;
+}
+
+html *
+{
+   color: #000 !important;
+   font-family: 'Montserrat', sans-serif;
+}
+
+.miuu-note-title {
+  font-weight: 600 !important;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.main-image {
+  width: 100%;
+  height: 100%;
+}
+
+.app-icon {
+  width: 106px;
+  height: 106px;
+}
+
+.google-play-badge {
+  width: 195px;
+  height: 61px;
+  margin-top: 32px;
+}
+
+.left-container {
+  margin-right: 64px;
+  padding-left: 64px;
+}
